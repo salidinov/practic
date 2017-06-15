@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title> Текстовый редактор </title>
+    <center><h1><p>Онлайн текстовый редактор</p></h1></center>
+ <script type="text/javascript">
+    function go(){
+    document.getElementById("redactor").contentWindow.document.designMode = "On";
+    }
+	function doStyle(style){
+	document.getElementById("redactor").contentWindow.document.execCommand(style, false, null);
+	}
+ </script>
+</head>
+ <body onLoad="go();"   spellcheck="true"> 
+   <table border="1px" align="center" cellpadding="5">
+   <tr bgcolor="#A9A9A9"> <td align="center" >
+        <input type="button"  onClick="doStyle('bold');" value=" B " />
+		<input type="button"  onClick="doStyle('italic');" value=" I " />
+		<input type="button"  onClick="doStyle('underline');" value=" U " />
+		<input type="button"  onClick="doStyle('justifyleft');" value="Выровнять по левому краю" />
+		<input type="button"  onClick="doStyle('justifycenter');" value=" Выровнять по центру" />
+		<input type="button"  onClick="doStyle('justifyright');" value=" Выровнять по правому краю" />	
+    </td></tr>
+       <tr><td>	   
+		<iframe id="redactor"  width="900" height="400"></iframe>
+     </td></tr>
+ </table>
+ <p align="center">All rights reserved &copy;</p>
+ </body>
+</html>

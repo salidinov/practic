@@ -1,0 +1,41 @@
+body {
+    background-color: #CCCCCC;
+}
+#textEditor {
+    display: block;
+    border: red thin ;
+    width:800px;
+    height:200px;
+    margin-left: 20px;
+}
+.button {
+    display: block;
+    background-color: #777777;
+    width:100px;
+    float:left;
+    margin:20px;
+    text-align: center;
+    font-weight: bold;
+    color: #AAAA55;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button:hover {
+   background-color: #999999;
+   color: #CCCC77;
+   cursor: pointer;
+}
+.dis {
+    background-color: #EEEEEE;
+    font-style:italic;
+}
+.en {
+    background-color: #FFFFFF;
+    font-style:normal;
+}
+.bold {
+font-weight: bold;
+}
+.under {
+text-decoration: underline;
+}

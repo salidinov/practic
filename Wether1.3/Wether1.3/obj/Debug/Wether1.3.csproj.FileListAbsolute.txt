@@ -1,0 +1,12 @@
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\bin\Wether1.3.dll.config
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\bin\Wether1.3.dll
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\bin\Wether1.3.pdb
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\obj\Debug\Wether1.3.csprojResolveAssemblyReference.cache
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\obj\Debug\Wether1.3.dll
+C:\Users\Алим\Desktop\Wether1.3\Wether1.3\obj\Debug\Wether1.3.pdb
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\bin\Wether1.3.dll.config
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\bin\Wether1.3.dll
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\bin\Wether1.3.pdb
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\obj\Debug\Wether1.3.csprojResolveAssemblyReference.cache
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\obj\Debug\Wether1.3.dll
+D:\University\Практика 2014\SoftServe\погода\Wether1.3\Wether1.3\obj\Debug\Wether1.3.pdb

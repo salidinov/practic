@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather online</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body >
+    <h1>Quick forecast</h1>
+    <div id="search">
+            <p><h3>Search by city</h3></p>
+            <input type="text" id="cityname" placeholder="Sevastopol, UA">
+            <button id="btnCity" class="button"> Find city </button>  
+            <div id="err1">You enter the wrong city name! </div>
+            <br />
+            <p><h3>Search by coordinates</h3></p>
+            <input type="text" id="log" name="log" placeholder="xx.x xx.x">
+            <button id="btnCoordin" class="button"> Find place </button> 
+        <div id="err2">You enter the wrong city coordinates!</div>   
+    </div>
+
+    <div id="weather">
+        <ul id="scroller"></ul>
+        <a href="#" class="arrow previous">Previous</a>
+        <a href="#" class="arrow next">Next</a>
+        
+    </div>
+    <p class="location"></p>
+    <div id="note">
+        <h3>Leave your comment</h3>      
+            <input id="comment" name="comment" type="text" />
+            <br />
+            <center>
+            <button id="add" type="submit" class="button"> Add</button>
+            <button id="clear" class="button">Clear all</button>
+            </center>
+        <div id="alert"></div>
+        <ul id="item"></ul>
+    </div>
+    <p id="copyright">All rights reserved &copy; by Alim Salidinov, 2014</p>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script> 
+    <script src="script.js"></script> 
+    
+</body>
+</html>
